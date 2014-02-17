@@ -31,6 +31,8 @@
     [searchBar resignFirstResponder];
     //入力された文字でYoutube検索を行う
     [self searchWord:searchBar.text];
+    
+    
 }
 
 //指定した文字列を引数にYoutubeを検索するメソッド
